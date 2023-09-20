@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(20deg, #8e0000, #f3cccc, #d37d7d);
+}
+
+.calculadora {
+    border: 3px solid #221818;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 15px rgb(0,0,0,0.2);
+}
+
+input {
+    width: 280px;
+    border: 1px solid #f3eeee;
+    padding: 20px;
+    margin: 10px;
+    background: rgba(247, 245, 245, .05);
+    box-shadow: 0px 3px 15px rgba(0,0, 0, 0.1);
+    font-size: 38px;
+    text-align: right;
+    cursor: pointer;
+    color: #1e1818;
+}
+
+input::placeholder {
+    color: #bdc3c7;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+    font-size: 24px;
+    box-shadow: -4px -4px 10px rgba(238,228, 228, 0.2);
+}
+
+.operador {
+    color: #e74c3c;
+}
+
+.btnIgual {
+    background-color: #ad0505;
+}
+
+footer {
+    background-color: #7d0606;
+    position: fixed;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 12px;
+}
